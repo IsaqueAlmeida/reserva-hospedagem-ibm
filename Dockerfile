@@ -1,3 +1,4 @@
+
 # Use the official Maven image as the base image
 FROM maven:3.8.4-openjdk-17 AS build
 
@@ -28,4 +29,3 @@ EXPOSE 8080
 
 # Command to run the application
 CMD ["java", "-jar", "app.jar"]
-
