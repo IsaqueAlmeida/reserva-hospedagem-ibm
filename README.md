@@ -43,7 +43,3 @@ Bem-vindo ao projeto de Reserva de Hospedagem IBM! Este projeto é um exemplo de
 ## Testes
 
 Os testes unitários são implementados para verificar a funcionalidade das classes de serviço e controlador.
-
-## Licença
-
-Este projeto está sob a licença [MIT](LICENSE).
