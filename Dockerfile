@@ -22,7 +22,7 @@ FROM openjdk:17-jdk-alpine
 WORKDIR /app
 
 # Copy the JAR file from the build stage to the container
-COPY --from=build /app/target/reserva-hospedagem-ibm.jar ./app.jar
+COPY --from=build /app/target/application.properties ./app.jar
 
 # Expose the port your application is listening on
 EXPOSE 8080
